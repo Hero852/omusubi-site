@@ -7,12 +7,10 @@
 body {
   margin: 0;
   font-family: "Hiragino Mincho ProN", serif;
-  body{
   background-image: url("images/washi.jpg");
   background-size: cover;
   background-position: center;
 }
-
 
 .hero {
   height: 90vh;
