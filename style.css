@@ -1,0 +1,51 @@
+:root {
+  --bg: #f7f4ef;
+  --text: #2b2b2b;
+  --accent: #8b2e2e;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Mincho ProN", serif;
+  body{
+  background-image: url("images/washi.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: clamp(32px, 5vw, 48px);
+  letter-spacing: 0.08em;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #8b2e2e;
+  letter-spacing: 0.15em;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 40px;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.omusubi-pic {
+  width: 150px;
+  height: auto;
+}
