@@ -32,6 +32,33 @@ body {
   letter-spacing: 0.15em;
 }
 
+.concept {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.order-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 16px 36px;
+  background: #8b2e2e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  letter-spacing: 0.08em;
+  transition: 0.3s;
+}
+
+.order-btn:hover {
+  background: #a94444;
+  transform: translateY(-2px);
+}
+
+.fa-instagram {
+  float: left;
+}
+
 .menu-list {
   display: flex;
   justify-content: center;
