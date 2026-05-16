@@ -12,23 +12,82 @@
     <meta charset="UTF-8" />
     <title>おむすびキッチンカー | OMUSUBI - Japanese Onigiri Food Truck</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <h1>おむすびキッチンカー</h1>
     </header>
 
-    <section class="hero">
-      <div class="hero-text">
-        <h1>心と身体をやさしく結ぶ</h1>
-        <p>握りたてのおにぎり</p>
+    <section class="rice-story">
+      <div class="rice-story-box">
+        <div class="rice-story-text">
+          <h2 class="rice-story-title">
+            結びの膳<br /><span class="title-name">さゆり</span>
+          </h2>
+
+          <p class="rice-story-desc">
+            さゆりのおむすびは、心と身体をやさしく結ぶごはん。
+            <br />母のぬくもりを受け継ぎ、さゆりの台所からお届けします。
+            <br />「水」「塩」「無添加素材」肝心要のさゆりの結び目。
+            <br />結んだ先を口にはこべば、ほっと心が緩み、笑顔が生まれ、まさに人と人とのご縁が結ばれいきます。
+          </p>
+        </div>
       </div>
     </section>
 
     <section class="concept">
       <div class="concept-text">
-        <h1>こだわり</h1>
-        <h2>旬の食材×麹×良い水</h2>
+        <div class="section-head">
+          <p class="section-en">Commitment</p>
+          <h2 class="section-title">こだわり</h2>
+        </div>
+        <ul class="commitment">
+          <li class="commitment-text">
+            <div class="commitment-image">
+              <span class="commitment-label">水</span>
+              <img class="commitment-pic" src="images/water.jpg" alt="water" />
+            </div>
+            <p class="commitment-title">還元水素水</p>
+            <p class="commitment-desc">
+              ふっくらと、やさしい口あたりに仕上がります。
+            </p>
+          </li>
+
+          <li class="commitment-text">
+            <div class="commitment-image">
+              <span class="commitment-label">塩</span>
+              <img class="commitment-pic" src="images/salt.jpg" alt="salt" />
+            </div>
+            <p class="commitment-title">神宝塩</p>
+            <p class="commitment-desc">
+              まろやかな旨みとやさしい塩味が、お米本来の甘みを引き立てます。
+            </p>
+          </li>
+
+          <li class="commitment-text">
+            <div class="commitment-image">
+              <span class="commitment-label">無添加</span>
+              <img
+                class="commitment-pic"
+                src="images/umeboshi.jpg"
+                alt="無添加"
+              />
+            </div>
+
+            <p class="commitment-title">無添加</p>
+
+            <p class="commitment-desc">
+              無添加にこだわり、 素材のやさしさをそのままお届けします。
+            </p>
+          </li>
+        </ul>
+
         <a
           class="order-btn"
           href="https://www.instagram.com/sayuri.somachi?igsh=a3cwZjZqZzJwb2Uz"
@@ -42,60 +101,42 @@
 
     <section class="menu">
       <div class="menu-title">
-        <h1>メニュー</h1>
-        <ul class="menu-list">
-          <li class="menu-item">
-            <img
-              class="omusubi-pic"
-              src="images/comingsoon.jpeg"
-              alt="coming soon"
-            />
-            <p>鮭</p>
-            <p>¥300</p>
-          </li>
+        <div class="section-head">
+          <p class="section-en">Menu</p>
+          <h2 class="section-title">メニュー</h2>
+        </div>
 
-          <li class="menu-item">
-            <img
-              class="omusubi-pic"
-              src="images/comingsoon.jpeg"
-              alt="coming soon"
-            />
-            <p>おかか</p>
-            <p>¥300</p>
-          </li>
+        <div class="menu-photo">
+          <img src="images/kitchencar.JPG" alt="おむすびキッチンカー" />
+        </div>
 
-          <li class="menu-item">
-            <img
-              class="omusubi-pic"
-              src="images/comingsoon.jpeg"
-              alt="coming soon"
-            />
-            <p>たらこ</p>
-            <p>¥300</p>
-          </li>
-        </ul>
+        <p class="menu-title">満福セット <span class="price">¥800</span></p>
+
+        <p class="menu-desc">おむすび2個と熱々のお味噌汁</p>
+
+        <p class="menu-note">※メニュー内容は日によって変更となります</p>
       </div>
     </section>
 
     <section class="schedule" id="schedule">
-      <div class="hours">
-        <h2>出店スケジュール</h2>
-        <ul class="schedule-list">
-          <li><span>月〜金</span> 11:00-14:00</li>
-          <li><span>土・日</span> 10:00-15:00</li>
-        </ul>
+      <div class="section-head">
+        <p class="section-en">Information</p>
+        <h2 class="section-title">出店情報</h2>
       </div>
 
-      <div class="map-section">
-        <h2>アクセス</h2>
-        <div class="map-frame">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3249.038144724563!2d140.0395487107362!3d35.47860004096544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60229e412b07fccd%3A0xdf2e4090e3649f51!2sAnegasaki%20Station!5e0!3m2!1sen!2sjp!4v1772105867902!5m2!1sen!2sjp"
-            allowfullscreen
-            loading="lazy"
-          ></iframe>
-        </div>
-      </div>
+      <p class="info-text">
+        出店場所や営業時間はイベントによって異なります。<br />
+        最新の出店情報はInstagramをご確認ください。
+      </p>
+
+      <a
+        class="insta-btn"
+        href="https://www.instagram.com/mabuhay_marche?igsh=MW5veTBreDlhNzJ3aA=="
+        target="_blank"
+      >
+        <i class="fa-brands fa-instagram"></i>
+        Instagramで確認する
+      </a>
     </section>
 
     <footer>
