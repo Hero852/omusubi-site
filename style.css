@@ -34,7 +34,7 @@ header h1 {
 }
 
 .rice-story {
-  padding: 80px 20px;
+  padding: 50px 20px;
 }
 
 .rice-story-box {
@@ -90,7 +90,7 @@ header h1 {
 .concept,
 .menu,
 .info {
-  padding: 40px 20px;
+  padding: 50px 20px;
 }
 
 .concept-text {
@@ -262,9 +262,14 @@ header h1 {
   font-family: "Yuji Syuku", serif;
 }
 
-.schedule {
+.menu-instagram {
+  margin-top: 40px;
   text-align: center;
-  padding: 80px 20px;
+}
+
+.menu-instagram p {
+  margin-bottom: 20px;
+  line-height: 1.8;
 }
 
 .info-text {
@@ -310,4 +315,63 @@ body {
 h1,
 h2 {
   font-family: "Noto Serif JP", serif;
+}
+@media (max-width: 768px) {
+  header {
+    height: 70px;
+  }
+
+  header h1 {
+    font-size: 100px;
+    letter-spacing: 0.12em;
+  }
+
+  .rice-story,
+  .concept,
+  .menu {
+    padding: 60px 20px;
+  }
+
+  .rice-story-box {
+    padding: 40px 24px;
+  }
+
+  .rice-story-text {
+    gap: 28px;
+    transform: translateX(0);
+  }
+
+  .rice-story-title {
+    font-size: 26px;
+  }
+
+  .rice-story-desc {
+    font-size: 14px;
+    max-height: 420px;
+  }
+
+  .commitment {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .commitment-text {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .commitment-pic {
+    width: 100%;
+    height: 210px;
+  }
+
+  .menu-photo {
+    max-width: 100%;
+  }
+
+  .insta-btn {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
 }
